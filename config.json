@@ -1,0 +1,18 @@
+{
+  "ListenPort":"8890",
+  "ListenProto":"TLS",
+  "TLS_Cert":"cert.pem",
+  "TLS_Key":"key.pem",
+  "ForwardTo":"https://atom.io:443",
+  "GeoIPDB":"GeoLite2-Country.mmdb",
+  "GeoIPDefaultAllow": true,
+  "GeoIPAllowedCountries":{
+      "GB": "GB",
+      "US": "US"
+  },
+  "GeoIPDeniedCountries":{
+      "RU": "RU",
+      "CN": "CN"
+  },
+  "Verbose_Logging":true
+}
